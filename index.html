@@ -1,38 +1,121 @@
-<!-- TODO 1: Create the HTML Boilerplate -->
-
-<!-- TODO 2: Add Your previous projects' HTML into the public folder -->
-
-<!-- TODO 3: Take screenshots of your project previews and add the images to the images folder -->
-
-<!-- TODO 4: Add titles/subtitles etc. -->
-
-<!-- TODO 5: Add a link to the project pages -->
-
-<!-- TODO 6: Add images to show the project previews
-HINT for TODO 6: You can use the height attribute set to 200 to make the image smaller:
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
-
-<!-- TODO 7: Add the Contact Me and About Me page links -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alpha Portfolio</title>
+    <title>Advait Sandilya - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #247d8b;
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        header img {
+            border-radius: 0%;
+            margin-top: 10px;
+        }
+        main {
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #4CAF50;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+        ul {
+            padding-left: 20px;
+            margin-top: 5px;
+        }
+        ul li {
+            margin-bottom: 5px;
+        }
+        footer {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 0.9em;
+            color: #555;
+        }
+    </style>
 </head>
 <body>
-    <h1>B's Portfolio</h1>
-    <h2>I'm a web developer</h2>
+    <header>
+        <h1>Advait Sandilya</h1>
+        <img src="./assets/Profile.jpg" alt="Profile Picture" width="150">
+        <p>Software Engineer | Process Analyst Lead | Problem Solver</p>
+    </header>
 
-    <hr>
+    <main>
+        <section>
+            <h2>Summary</h2>
+            <p>
+                Hi, I'm a Software Engineer currently working as a Process Analyst Lead at an MNC with 4 years of experience in diverse technologies and projects. I specialize in building scalable solutions, workflow automation, and leveraging technology for process improvement. Some of my key achievements include:
+            </p>
+            <ul>
+                <li>Developed custom solutions for utility companies to resolve billing-related issues and automate processes using React, Spring Boot, and Camunda.</li>
+                <li>Created a QA platform for internal teams using Spring Boot and Angular.</li>
+                <li>Built microservices with Spring Boot, utilizing Camunda for workflow orchestration and report generation.</li>
+                <li>Explored Machine Learning with Python to create a smart bot capable of transcribing meetings and generating detailed meeting notes.</li>
+            </ul>
+        </section>
 
-    <a href="./public/movie-ranking.html">Movie Ranking Project</a> <br>
-    <br>
-    <img src="./assets/images/movie-ranking.png" alt="Movie Ranking Project" height="200">
-    <br>
-    <a href="./public/birthday-invite.html">Birthday Invite Project</a><br>
-    <br>
-    <img src="./assets/images/birthday-invite.png" alt="Birthday Invite Project" height="200">
+        <section>
+            <h2>Education</h2>
+            <p>B. Tech. from AKTU (8.7 GPA)</p>
+        </section>
+
+        <section>
+            <h2>Work Experience</h2>
+            <p>4+ years of professional experience working on innovative projects and delivering solutions that drive efficiency and impact.</p>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li>Java</li>
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+                <li>React</li>
+                <li>Angular</li>
+                <li>Spring Boot</li>
+                <li>AWS</li>
+                <li>Problem Solving</li>
+                <li>Leadership</li>
+                <li>DevOps</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Achievements</h2>
+            <ul>
+                <li>Won the Insta Award for exceptional contributions.</li>
+                <li>Received recognition for delivering high-impact products.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Advait Sandilya. All rights reserved.</p>
+    </footer>
 </body>
 </html>
